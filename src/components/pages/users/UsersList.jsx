@@ -1,4 +1,4 @@
-import React from 'react'
+import {React, useState} from 'react'
 import { DataGrid } from '@material-ui/data-grid';
 import {DeleteOutline} from "@material-ui/icons"
 import "./usersList.css"
@@ -9,6 +9,11 @@ import { Link } from "react-router-dom";
 
 export default function UsersList() {
 
+    const [data, setData] = useState(userRows);
+
+    const deleteUser = id =>{
+        setData(data.filter(item=>item.id!==id));
+    }
 
 const columns = [
   { field: 'id', headerName: 'ID', width: 70 },
@@ -27,17 +32,17 @@ const columns = [
   {field: "action", headerName: "Action", width: 150, renderCell: (params) => {
       return (
           <Fragment>
-              <Link to={"/user/"+params.row.id}>
-                <button className="userListBtn">Edit</button>
-              </Link>
-            <DeleteOutline className="userListDelete"/>
+            <Link to={"/user/" + params.row.id}>
+                <button className="userListBtn" >Edit</button>
+            </Link>
+            <DeleteOutline className="userListDelete" onClick= {()=>deleteUser(params.row.id)} />
           </Fragment>
       )
   }},
 ];
     return (
         <div className="userList">
-             <DataGrid rows={userRows} disableSelectionOnClick columns={columns} pageSize={5} checkboxSelection />
+             <DataGrid rows={data} disableSelectionOnClick columns={columns} pageSize={5} checkboxSelection />
         </div>
     )
 }

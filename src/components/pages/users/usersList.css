@@ -23,3 +23,7 @@
   color: rgb(85, 0, 85);
   cursor: pointer;
 }
+
+.userListDelete {
+  cursor: pointer;
+}
