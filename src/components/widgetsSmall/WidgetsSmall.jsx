@@ -8,7 +8,7 @@ export default function WidgetsSmall() {
             <span className="widgetSmTitle">New Join Members</span>
             <ul className="widgetSmList">
                 <li className="widgetSmallItem">
-                    <img className="widgetImg" src="./profile.jpg" alt="avatar" />
+                    <img className="widgetImg" src="https://i.imgur.com/dyC1S6l.jpg" alt="avatar" />
                     <div className="widgetSmallUser">
                         <span className="widgetSmallUserName">Vítor Rodrigues</span>
                         <span className="widgetSmallTitle">Frontend developer</span>
@@ -18,7 +18,7 @@ export default function WidgetsSmall() {
                     </button>
                 </li>
                 <li className="widgetSmallItem">
-                    <img className="widgetImg" src="./profile.jpg" alt="avatar" />
+                    <img className="widgetImg" src="https://i.imgur.com/dyC1S6l.jpg" alt="avatar" />
                     <div className="widgetSmallUser">
                         <span className="widgetSmallUserName">Vítor Rodrigues</span>
                         <span className="widgetSmallTitle">Frontend developer</span>
@@ -28,7 +28,7 @@ export default function WidgetsSmall() {
                     </button>
                 </li>
                 <li className="widgetSmallItem">
-                    <img className="widgetImg" src="./profile.jpg" alt="avatar" />
+                    <img className="widgetImg" src="https://i.imgur.com/dyC1S6l.jpg" alt="avatar" />
                     <div className="widgetSmallUser">
                         <span className="widgetSmallUserName">Vítor Rodrigues</span>
                         <span className="widgetSmallTitle">Frontend developer</span>
@@ -38,7 +38,7 @@ export default function WidgetsSmall() {
                     </button>
                 </li>
                 <li className="widgetSmallItem">
-                    <img className="widgetImg" src="./profile.jpg" alt="avatar" />
+                    <img className="widgetImg" src="https://i.imgur.com/dyC1S6l.jpg" alt="avatar" />
                     <div className="widgetSmallUser">
                         <span className="widgetSmallUserName">Vítor Rodrigues</span>
                         <span className="widgetSmallTitle">Frontend developer</span>

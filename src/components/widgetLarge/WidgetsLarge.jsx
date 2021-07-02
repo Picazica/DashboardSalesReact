@@ -19,7 +19,7 @@ export default function WidgetsLarge() {
                 </tr>
                 <tr className="widgetLTR">
                     <td className="widgetUser">
-                        <img className="imgTR" src="./profile.jpg" alt="" />
+                        <img className="imgTR" src="https://i.imgur.com/dyC1S6l.jpg" alt="" />
                         <span className="userName">Vítor Rodrigues</span>
                     </td>
                     <td className="widgetLDate">26 April 2019</td>
@@ -30,7 +30,7 @@ export default function WidgetsLarge() {
                 </tr>
                 <tr className="widgetLTR">
                     <td className="widgetUser">
-                        <img className="imgTR" src="./profile.jpg" alt="" />
+                        <img className="imgTR" src="https://i.imgur.com/dyC1S6l.jpg" alt="" />
                         <span className="userName">Vítor Rodrigues</span>
                     </td>
                     <td className="widgetLDate">26 April 2019</td>
@@ -41,7 +41,7 @@ export default function WidgetsLarge() {
                 </tr>
                 <tr className="widgetLTR">
                     <td className="widgetUser">
-                        <img className="imgTR" src="./profile.jpg" alt="" />
+                        <img className="imgTR" src="https://i.imgur.com/dyC1S6l.jpg" alt="" />
                         <span className="userName">Vítor Rodrigues</span>
                     </td>
                     <td className="widgetLDate">26 April 2019</td>
@@ -52,7 +52,7 @@ export default function WidgetsLarge() {
                 </tr>
                 <tr className="widgetLTR">
                     <td className="widgetUser">
-                        <img className="imgTR" src="./profile.jpg" alt="" />
+                        <img className="imgTR" src="https://i.imgur.com/dyC1S6l.jpg" alt="" />
                         <span className="userName">Vítor Rodrigues</span>
                     </td>
                     <td className="widgetLDate">26 April 2019</td>

@@ -20,7 +20,7 @@ export default function Topbar() {
                     <div className="iconContainer">
                         <Settings/>
                     </div>
-                    <img src="./profile.jpg" alt="avatar" className="topAvatar" />
+                    <img src="https://i.imgur.com/dyC1S6l.jpg" alt="avatar" className="topAvatar" />
                 </div>
             </div>
         </div>
