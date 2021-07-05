@@ -29,17 +29,18 @@ export default function Sidebar() {
                 <div className="sidebarMenu">
                     <h3 className="sidebarTitle">Quick Menu</h3>
                     <ul className="sidebarList">
-                        <Link to="/users">
+                        <Link to="/users" className="link">
                         <li className="sidebarListItem " >
                             <LineStyle className="sidebarIcon"/>
                             Users
                         </li>
                         </Link>
-                        
+                        <Link to="/products" className="link">
                         <li className="sidebarListItem">
                             <Timeline className="sidebarIcon"/>
                             Products
                         </li>
+                        </Link>
                         <li className="sidebarListItem">
                             <TrendingUp className="sidebarIcon"/>
                             Transactions
